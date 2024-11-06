@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.emilys-candy-regular {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form{
+	font-family: "Emilys Candy";
+	text-align: center;
+}
+
+input[type=list]{
+	font-family: "Emilys Candy";
+}
+
+input[type=button]{
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 7px;
+	background: #CE87C7;
+	box-shadow: 1px 2px 3px gray;
+	padding: 2px;
+	border: 2px solid #5F1356;
+	font-family: "Emilys Candy";
+}
+input[type=button]:hover{
+	box-shadow: 1px 3px 5px gray;
+}
+input[type=reset]{
+	font-family: "Emilys Candy";
+	font-weight: bold;
+	font-size: 15px;
+}
+input[type=submit]{
+	font-family: "Emilys Candy";
+	font-weight: bold;
+	font-size: 15px;
+}
+
+fieldset{
+	width: 400px;
+	background: #F9C5E9;
+	border: solid #5F1356;
+	text-align: left;
+	margin: 0 auto;
+}
+legend{
+	color:#5F1356;
+	font-family: "Emilys Candy";
+}
+body{
+	background:url("slike/Untitled-3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	font-size: 20px;
+	font-family: "Emilys Candy";
+}
+input:focus{
+	background-color:#FDEBF7;
+}
+div.formular{
+	text-align: center;
+}
+a:active{
+	background-color: #E8C4F1;
+}
+textarea{
+	font-family: "Emilys Candy";
+}

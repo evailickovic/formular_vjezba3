@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+	<title>vjezba3</title>
+	<link rel="stylesheet" type="text/css" href="stil.css"
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+<style>
+		h1{
+			font-family:"Emilys Candy";
+			font-size: 35px;
+		}
+	form{
+		font-family: "Emilys Candy";
+	}
+</style>
+</head>
+	
+<body>
+	<div class="formular">
+	<h1>Formular</h1>
+<form action="">
+	<fieldset>
+	<legend><b>Obavezni podaci</b></legend>
+	Ime<input type="text" name="ime" size="10"><br>
+	Prezime<input type="text" name="prezime" size="10">
+	 <br>Datum rođenja<br><input type="date" name="rodendan">
+	<input type="submit" value="pošalji">
+	</fieldset>
+</form>
+<form action="">
+<fieldset>
+	<legend><b>Odaberi spol</b></legend>
+	<input type="radio" name="spol" value="zensko"> Žensko<br>
+	<input type="radio" name="spol" value="musko"> Muško<br>
+	<input type="submit" value="Prihvati">
+	<input type="reset" value="Poništi">
+</fieldset>
+</form>
+	
+<form>
+<fieldset>
+	<legend><b>Odaberi boju koju voliš</b></legend>
+	<input type="checkbox" name="boja" value="crvena">Crvenu<br>
+	<input type="checkbox" name="boja" value="plava">Plavu<br>
+	<input type="checkbox" name="boja" value="zelena">Zelenu<br>
+	<input type="checkbox" name="boja" value="ljubičasta">Ljubičastu<br>
+	<input type="checkbox" name="boja" value="žuta">Žutu<br>
+	<input type="checkbox" name="boja" value="roza">Rozu<br>
+	<input type="checkbox" name="boja" value="crna">Crnu<br>
+	<input type="checkbox" name="boja" value="narančasta">Narančastu<br>
+	<input type="submit" value="Prihvati">
+	<input type="reset" value="Poništi">
+</fieldset>
+</form>
+
+<form action="">
+	<fieldset>
+	<legend><b>Odaberi nijansu boje</b></legend>
+	<input type="color" name="boja" value="#8000FF">
+	<input type="submit">
+	<input type="button" value="FUN FACT" onClick="alert('Boje mogu puno reći o vama. Tople boje (crvena, žuta, narančasta) pobuđuju osjećaje kreativnosti, druželjubivosti i strasti, dok hladne boje (plava, zelena, ljubičasta) predstavljaju zrelost, mir i spokoj.')">
+	</fieldset>
+</form>
+
+
+<form>
+	<fieldset>
+	<legend><b>Unesi url svoje najdraže pjesme</b></legend>
+	<input type="url" name="webpage">
+	<input type="submit">
+	</fieldset>
+</form>
+
+<form action="">
+	<fieldset>
+	<legend><b>Odaberite najdražu robnu marku</b></legend>
+	<br>
+	<input list="marke" name="marke">
+	<datalist id="marke">
+	<option value="NIKE" name="marke"></option>
+	<option value="ADIDAS" name="marke"></option>
+	<option value="AIR JORDAN" name="marke"></option>
+	<option value="TOMMY HILFIGER" name="marke"></option>
+	<option value="HUGO BOSS" name="marke"></option>
+	<option value="RAULPH LAUREN" name="marke"></option>
+	<option value="KARL LAGERFELD" name="marke"></option>
+	<option value="LEVIS" name="marke"></option>
+	</datalist>
+	</fieldset>
+	
+</form>
+	<form action="">
+	<fieldset>
+	<legend><b>Unesi broj mobitela:</b></legend>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678"
+  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+  <input type="submit">
+	</fieldset>
+</form> 
+<fieldset>
+	<legend><b>Unpopular opinion</b></legend>
+<textarea rows="10" cols="30">
+Polje za upis teksta...
+</textarea>
+</fieldset>
+	</div>
+	</body>
+</html>
